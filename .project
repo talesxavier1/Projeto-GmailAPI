@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>GmailAPI</name>
+	<name>GmailAPIMetodosBasicos</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -20,11 +20,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>credentiais/credentials.json</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/credentials.json</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

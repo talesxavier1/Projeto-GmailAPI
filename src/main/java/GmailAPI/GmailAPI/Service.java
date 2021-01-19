@@ -41,7 +41,7 @@ public class Service
 					.setAccessToken("")
 					.setRefreshToken(refrashToken);
 			final NetHttpTransport httpTransport = GoogleNetHttpTransport.newTrustedTransport();
-			Gmail service_ = new Gmail.Builder(httpTransport, JSON_FACTORY, authorize).setApplicationName(GmailAPI.APPLICATION_NAME).build();
+			Gmail service_ = new Gmail.Builder(httpTransport, JSON_FACTORY, authorize).setApplicationName("GmailAPI").build();
 			service=service_;
 		}
 		catch (IOException | GeneralSecurityException e)

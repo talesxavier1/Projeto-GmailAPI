@@ -52,7 +52,14 @@
 			<artifactId>javafx-swing</artifactId>
 			<version>16-ea+5</version>
 		</dependency>
-
+		
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+		
 		
 		
 		
